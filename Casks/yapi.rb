@@ -3,7 +3,7 @@ cask "yapi" do
   name "yapi"
   desc "CLI-first, offline-first, git-friendly API client for HTTP, gRPC, and TCP"
   homepage "https://github.com/jamierpond/yapi"
-  version "0.6.5"
+  version "0.6.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "yapi" do
   on_macos do
     on_intel do
       url "https://github.com/jamierpond/yapi/releases/download/v#{version}/yapi_darwin_amd64.tar.gz"
-      sha256 "b8631c1bfcffcf288519c78e65b0876e7eb9df6b8c32939857e3ba68dc6ff5ff"
+      sha256 "f6a51de0329ea5ac0b20204273adaad306353669876a8d49e124622155845e90"
     end
     on_arm do
       url "https://github.com/jamierpond/yapi/releases/download/v#{version}/yapi_darwin_arm64.tar.gz"
-      sha256 "d236d9a534c81af9e1a9bbfb7ea3b6cdd885bc2fdec550e47030a609a654c91c"
+      sha256 "32a9c6759a07af28f7b33a3b1bbe77e8cb4118933aa82402457dd9d723c6b2ad"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jamierpond/yapi/releases/download/v#{version}/yapi_linux_amd64.tar.gz"
-      sha256 "316dfdadf0c370697a9dafe379b6de2b5b682427b7a577dcde516c4c7b067fbb"
+      sha256 "c39c33ea67ba7b235c49e4e599d89c08a0c841e86fc114507053eca930fa83db"
     end
     on_arm do
       url "https://github.com/jamierpond/yapi/releases/download/v#{version}/yapi_linux_arm64.tar.gz"
-      sha256 "daca352d68c97cb88e74cb12193d9f3d93d5956466bc47b86580c792e47d5b22"
+      sha256 "b4519987a8d9785ea30d2335c0badbb302327a94726810a9561ea665406a8963"
     end
   end
 
